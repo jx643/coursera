@@ -23,7 +23,7 @@ You are working on a factory automation task. Your system will see a can of soft
 
 What is the most appropriate set of output units for your neural network?
 
->  Logistic unit, bx, by, bh, bw
+>  Logistic unit, bx, by
 
 
 ### 4
@@ -44,12 +44,12 @@ Suppose you are applying a sliding windows classifier (non-convolutional impleme
 ### 7
 
 In the YOLO algorithm, at training time, only one cell ---the one containing the center/midpoint of an object--- is responsible for detecting this object.
-> false
+> true
 
 ### 8
 What is the IoU between these two boxes? The upper-left box is 2x2, and the lower-right box is 2x3. The overlapping region is 1x1.
 
->  None of the above [1/4]
+>  1/9
 
 ### 9
 Suppose you run non-max suppression on the predicted boxes above. The parameters you use for non-max suppression are that boxes with probability ≤ 0.4 are discarded, and the IoU threshold for deciding if two boxes overlap is 0.5. How many boxes will remain after non-max suppression?

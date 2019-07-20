@@ -100,9 +100,9 @@ In lecture we talked about “parameter sharing” as a benefit of using convolu
 
 It allows parameters learned for one task to be shared even for a different task (transfer learning).
 
-It reduces the total number of parameters, thus reducing overfitting.
+> It reduces the total number of parameters, thus reducing overfitting.
 
-> It allows gradient descent to set many of the parameters to zero, thus making the connections sparse.
+It allows gradient descent to set many of the parameters to zero, thus making the connections sparse.
 
 > It allows a feature detector to be used in multiple locations throughout the whole input image/input volume.
 

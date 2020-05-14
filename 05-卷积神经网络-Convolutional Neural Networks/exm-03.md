@@ -29,7 +29,7 @@ What is the most appropriate set of output units for your neural network?
 ### 4
 If you build a neural network that inputs a picture of a person’s face and outputs N landmarks on the face (assume the input image always contains exactly one face), how many output units will the network have?
 
-> 3N
+> 2N
 
 ### 5
 
